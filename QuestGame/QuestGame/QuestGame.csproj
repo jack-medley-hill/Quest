@@ -9,4 +9,10 @@
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.22" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="QuestController.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
 </Project>
